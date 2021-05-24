@@ -1,0 +1,22 @@
+.todo-header{
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    & .icon-wrapper{
+        height: 100%;
+        text-align: center;
+        width: 40px;
+        line-height: 45px;
+        font-size: 40px;
+        color: gray;
+        background: white;
+        transition: 250ms all ease-in-out;
+        cursor: pointer;
+        
+        &:hover{
+            color: black;
+        }
+    }
+    
+}
