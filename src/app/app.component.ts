@@ -16,6 +16,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit()
   {
+    this.todoService.UpdateTodosData();
     this.hasTodo$ = this.todoService.length$.pipe(map(length => length > 0))
   }
 }

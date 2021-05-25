@@ -4,7 +4,7 @@
     <div class="todo-wrapper col-md-6 col-sm-8">
       <app-todo-header></app-todo-header>
       <app-todo-list></app-todo-list>
-      <app-todo-footer ></app-todo-footer>
+      <app-todo-footer *ngIf="hasTodo$ | async"></app-todo-footer>
     </div>
   </div>
   <small class="instruction">
